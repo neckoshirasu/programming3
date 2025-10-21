@@ -2,14 +2,13 @@
 
 int main(void)
 {
-    int num;
-
-    printf("整数を入力せよ。");
+    double a;
+    int b;
     
-    printf("nyaaaaaaaaaaaaaaa");
-    scanf("%d", &num);
-    printf("%dの符号を反転した値は%dです。\n", +num, -num);
+    a = b = 2.5;
+
+    printf("a = %f\n",a);
+    printf("b = %d\n",b);
 
     return 0;
-    
 }
