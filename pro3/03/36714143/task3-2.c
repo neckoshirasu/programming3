@@ -30,6 +30,8 @@ int main(void)
         }
     }
 
+    //答えを出力
+    printf("答えの行列は\n");
     for(int i = 0; i < 4; i++){
         for(int j = 0; j < 4; j++){
             printf("c[%d][%d] = %d\n", i, j, c[i][j]);

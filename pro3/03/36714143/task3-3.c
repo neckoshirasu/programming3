@@ -21,7 +21,7 @@ int main(void)
             sum += test[j][i];
         }
         printf("%d科目の合計点は、%d点です\n",(i + 1),sum);
-        printf("科目%dの平均点は、%f点です\n",(i + 1), (double)sum / n);
+        printf("%d科目の平均点は、%.2f点です\n",(i + 1), (double)sum / n);
         sum = 0;
     }
     
@@ -32,7 +32,7 @@ int main(void)
             sum += test[i][j];
         }
         printf("%d人目の学生の合計点は、%d点です\n",(i + 1), sum);
-        printf("%dの平均点は、%f点です\n",(i + 1), (double)sum / 2);
+        printf("%d人目の学生の平均点は、%.2f点です\n",(i + 1), (double)sum / 2);
         sum = 0;
     }
     return 0;
