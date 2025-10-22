@@ -1,0 +1,68 @@
+\documentclass[a4j,11pt]{jarticle}
+\usepackage{fancyheadings}
+%\usepackage{here}
+\usepackage[dvips]{graphicx}
+\renewcommand{\thepage}{\small -- \arabic{page} --}
+%\headrulewidth=0pt
+\rhead{}
+\lhead{}
+\textheight 234mm
+%
+\usepackage{amsmath}	% required for `\cases' (yatex added)
+\usepackage{bm}
+\usepackage{ascmac}	% required for `\screen' (yatex added)
+\usepackage{color}
+
+\newcommand{\thisyear}{2019}
+
+\pagestyle{fancy}
+\lhead{{\thisyear}年度 プログラミングIII}
+
+\title{{\thisyear}年度 プログラミングIII 第1回 レポート}
+\date{\number\year 年\number\month 月\number\day 日}
+
+\author{学籍番号******** \\ ***(名前)***}
+%
+%
+\begin{document}
+%
+\maketitle
+\clearpage
+%
+%
+\section{はじめに}
+%
+%
+「このレポートで何を報告するのか？」についてここに簡単に書く．
+長く書く必要はない．
+%
+%
+\section{演習課題}
+%
+%
+\subsection{課題1-1}
+%
+%
+\TeX の参考として図 \ref{fig:task1-1} に示す．
+適宜，各自の図（演習課題の結果）に変更すること．
+%
+\begin{figure}[b]
+ \centering
+% \includegraphics[scale=0.7]{./figure.eps}
+ % 図を貼り付ける際には上のコメントを外す
+ % 貼り付ける図はEPS形式の図である必要がある
+ 
+ \caption{図の貼り付け例}
+ \label{fig:task1-1}
+\end{figure}
+%
+%
+\subsection{課題1-2}
+%
+%
+
+%
+\section{プログラム}
+%
+%
+\end{document}
