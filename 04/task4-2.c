@@ -10,22 +10,23 @@ int main(void)
     printf("num2 = ");   scanf("%lf", &num2);
     printf("num3 = ");   scanf("%lf", &num3);
 
-
+    //最大値,最小値の変数の作成
     double max = num1; 
     double min = num1;
 
+    //num1,num2の比較
     switch (num2 < max){
-        case 0: max = num2; break;
-        case 1: min = num2; break;
+        case 0: max = num2; break;  //maxの更新
+        case 1: min = num2; break;  //minの更新
     }
 
-
+    //num3とmax,minの比較
     switch (num3 < max){
-        case 0: max = num3; break;
+        case 0: max = num3; break;  //num3が一番大きい
         case 1:
         switch (min > num3){
-            case 0: ; break;
-            case 1: min = num3; break;
+            case 0: ; break;    //num3は真ん中
+            case 1: min = num3; break;  //num3は最小
         }
     }
         
