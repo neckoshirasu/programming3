@@ -9,9 +9,9 @@ struct xyz{
 
 struct xyz scan_xyz(){
     struct xyz temp;
-    scanf("x = %d\n", &temp.x);
-    scanf("y = %ld\n", &temp.y);
-    scanf("z = %lf", &temp.z);
+    printf("x = ");      scanf("%d", &temp.x);
+    printf("y = ");      scanf("%ld", &temp.y);
+    printf("z = ");     scanf("%lf", &temp.z);
 
     return temp;
 };
