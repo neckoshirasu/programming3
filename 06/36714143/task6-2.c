@@ -26,7 +26,7 @@ int main(void)
     printf("xyz.y = %ld\n", s.y);
     printf("xyz.z = %lf\n", s.z);
 
-    
+    return 0;
 }
 
 
