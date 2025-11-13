@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define _USE_MATH_DEFINES 
+//#define _USE_MATH_DEFINES 
 
 int main(void)
 {
