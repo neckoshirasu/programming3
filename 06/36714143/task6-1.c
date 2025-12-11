@@ -16,6 +16,7 @@ int main(void)
     printf("身長のアドレス = %p\n", &takao.height);
     printf("体重のアドレス = %p\n", &takao.weight);
     
+    return 0;
 }
 
 
