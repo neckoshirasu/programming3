@@ -10,5 +10,5 @@ int main(void)
     printf("標準体重は%.1fです。\n",ans );
 
     return 0;
-    
+
 }

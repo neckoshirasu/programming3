@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
+#include "task13.h"
+
 
 //スタックを実現する構造体
 typedef struct{
