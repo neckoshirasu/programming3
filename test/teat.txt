@@ -1,0 +1,27 @@
+圧縮
+tar cvzf 36714143.tar.gz ./36714143
+
+#include <stdio.h>
+
+int main(void){
+    printf("%d",15 + 37);   //書式設定可能改行手動
+    puts("a");  //書式設定no改行自動
+    printf("n = %d\n", n);
+    printf("&n = %p\n", &n);
+    int *P = &n;
+    printf("p = %p\n", p);  //実体
+    printf();
+
+    return 0;
+}
+
+/* */
+%d //10進数int 少なくとも5桁表示
+%5.1f //浮動小数点少なくとも5桁 小数点以下1桁 
+%4f double型 桁数指定 scanfでも一緒
+
+scanf("%d", &no); //scanfには &がいる
+#define NUMBER 5 //マクロ定義
+putchar('\n');
+
+//コンパイル方法gcc task5.c -o task5
