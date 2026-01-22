@@ -24,7 +24,7 @@ plot:
 	     '$(STUNO)-2.dat' title '1/x', \
 	     '$(STUNO)-3.dat' title '-1/x'; \
 	set terminal pdf; \
-	set output '$(STUNO)-15.pdf'; \
+	set output '$(STUNO)-15-3.pdf'; \
 	replot; \
 	exit" | gnuplot
 
